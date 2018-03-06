@@ -1,0 +1,22 @@
+{
+  "name": "nightlife-coordination-app",
+  "version": "1.0.0",
+  "description": "FCC Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishit Rathod",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^2.0.1",
+    "mongoose": "^5.0.8",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
